@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="17dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player X Turn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button7"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button8"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button9"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Resetbtn"
+        android:layout_width="206dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="20dp"
+        android:text="RESET"
+        app:iconTint="#FFEB3B"
+        app:rippleColor="#EA0909"
+        app:strokeColor="#FFEB3B" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
